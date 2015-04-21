@@ -1,7 +1,7 @@
 # Drone Track
 
 ## Running
-To run, run the [drone-track-server](https://github.com/jbrecht/drone-track-server), then simply open index.html in a modern web browser.
+To run, run the [drone-track-server](https://github.com/jbrecht/drone-track-server), then simply open index.html in a modern web browser. The clien is hardcoded to look for a locally running server. Modify the value of serverURL in drone_track.js if running the server elsewhere.
 
 ## Problem
 

@@ -25,8 +25,8 @@ $(document).ready(function() {
     fillOpacity: 0.5
   }).addTo(map);
 
-
-  var socket = io('http://0.0.0.0:1337');
+  var serverURL = 'http://0.0.0.0';
+  var socket = io(serverURL+':1337');
 
   $('#fly').button().click(function() {
     socket.emit('status_update', 'flying');
