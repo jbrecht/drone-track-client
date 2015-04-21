@@ -1,5 +1,8 @@
 # Drone Track
 
+## Running
+To run, run the [drone-track-server](https://github.com/jbrecht/drone-track-server), then simply open index.html in a modern web browser.
+
 ## Problem
 
 A client would like a real-time dashboard where they can deploy a drone already available on the clients job site with a push of a button and track the position of the drone as it follows the pre-planned path laid out for it. The drone flies at a speed of 10 meters / second. The drones position should be displayed on a map and move as the drone flies around in the physical world. Because we are for obvious reasons not going to be using a real drone, part of this problem is to build a way to mock out the drones flight and update your dashboard accordingly. The client has also requested that the dasboard have a way to pause the drone mid-flight and if necessary abort the drone mid-flight and have it return to it's starting position.
